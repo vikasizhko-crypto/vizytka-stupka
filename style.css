@@ -1,0 +1,71 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+/* 🎭 Фон — театральна сцена */
+.background-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+                url('https://i.postimg.cc/fWH5hPfP/photo-2025-09-22-19-42-12.jpgs');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 30px;
+}
+
+/* Картка, зміщена вліво */
+.custom-card {
+  background-color: rgba(255, 255, 255, 0.97);
+  border-radius: 16px;
+  max-width: 550px;
+  width: 100%;
+  margin-left: 0;
+}
+
+/* Стилі тексту */
+.card-title {
+  font-family: 'Marcellus', serif;
+  font-size: 2rem;
+  color: #003366;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Цитата */
+.blockquote {
+  font-style: italic;
+  color: #444;
+  border-left: 4px solid #0d6efd;
+  padding-left: 15px;
+}
+
+/* Яскрава кнопка */
+.btn-custom {
+  background-color: #005bbb;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 24px;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 91, 187, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-custom:hover {
+  background-color: #004799;
+  transform: translateY(-2px);
+  color: #ffffff;
+}
+
